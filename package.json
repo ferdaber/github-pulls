@@ -1,0 +1,21 @@
+{
+  "name": "github-pulls",
+  "version": "1.0.0",
+  "description": "Gets all pull requests for a certain organization",
+  "main": "out/src/index.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "node out/src/index.js"
+  },
+  "author": "Ferdy Budhidharma",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.53",
+    "jasmine": "^2.7.0"
+  },
+  "dependencies": {
+    "@types/request": "^2.0.0",
+    "parse-link-header": "^1.0.1",
+    "request": "^2.81.0"
+  }
+}
